@@ -1,0 +1,14 @@
+div {
+    border: solid black 2px;
+}
+
+#container {
+    display: grid;
+    grid-template-columns: 6fr;
+    grid-template-rows: 6fr;
+}
+
+#titlebar {
+    grid-row: span 6;
+    grid-column: span 2;
+}
