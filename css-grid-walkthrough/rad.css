@@ -39,10 +39,15 @@ html {
 #grid {
     display: grid;
     /*
+    - 6x2 grid
     grid-template-columns: 1fr 1fr;
-    */
+
+    
+    - 2x6 grid
     grid-template-columns: repeat(6, 1fr);
-    /*
+
+    
+    - 3x4 grid where the second row is larger than the others
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows: 1fr 2fr 1fr;
     */
